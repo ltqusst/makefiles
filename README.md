@@ -6,8 +6,12 @@ This repo contains some makefile templates
 With the help of GNU make built-in rules, this makefile can auto generate dependence file (*.d) and object files (*.o) under separate folder and same directory structure with source code.
 
 In this example1:
-  sources are: main.cpp & module/util.cpp
-  obj & deps are all under bin, with the same folder structure as sources
+
+* sources are: main.cpp & module/util.cpp
+* obj & deps are all under bin, with the same folder structure as sources
+
+here is the designed structure:
+
     .
     ├── 8br6L.png
     ├── bin
